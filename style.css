@@ -1,0 +1,119 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	font-weight: bold;
+}
+#top_nav a, #bot_nav a {
+	text-decoration: none;
+	color: white;
+}
+	#top_nav {
+		color: white;
+		background-color: #003b64;
+		border-bottom: 2px solid #003051;
+		text-align: center;
+		font-size: 10pt;
+	}
+		#top_nav * {
+			display: inline-block;
+			vertical-align: middle;
+			font-weight: lighter;
+		}
+		#top_nav p {
+			margin-right: 50px;
+		}
+		#top_nav ul li {
+			margin: 5px 10px;
+		}
+	#bot_nav {
+		background-color: #003b64;
+		color: white;
+		text-align: center;
+	}
+		#bot_nav * {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		#bot_nav ul li {
+			margin: 0px 15px;
+		}
+		#logo {
+			height: 60px;
+			width: 75px;
+			margin: 2px 5px 7px 0px;
+		}
+		input {
+			height: 30px;
+			width: 200px;
+			margin: 0px 0px 0px 30px;
+			color: gray;
+			font-weight: lighter;
+			padding-left: 10px;
+			font-size: 10pt;
+			border-radius: 3px 0px 0px 3px;
+			border-style: none;
+		}
+		button {
+			height: 30px;
+			border-radius: 0px 3px 3px 0px;
+			border-style: none;
+			background-color: #ebe6e2;
+			margin: 0px 40px 0px -4px;
+		}
+		button * {
+			height: 25px;
+		}
+#wrapper{
+	background-size: 100%;
+	background-image: url('imgs/background.png');
+	background-repeat: no-repeat;
+}
+	#sidebar {
+		width: 345px;
+		background-color: white;
+		display: inline-block;
+	}
+	#sidebar li {
+		list-style-type: none;
+		color: blue;
+		margin: 10px 15px;
+	}
+	#sidebar a {
+		text-decoration: none;
+	}
+
+	#content {
+		width: 650px;
+		padding: 35px;
+		display: inline-block;
+		vertical-align: top;
+		color: white;
+	}
+#footer_cont {
+	margin: 0px auto;
+	width: 1000px;
+}
+#footer_cont h2 {
+	text-align: right;
+}
+#footer_cont ul li{
+	list-style-type: none;
+	display: inline-block;
+	}
+	#footer_cont ul {
+		text-align: center;
+	}
+	h2 span{
+		font-weight: lighter;
+	}
+	.footers {
+		width: 280px;
+		display: inline-block;
+		margin: 0px auto;
+		padding: 3px;
+		background: #bb0628;
+	}
+		.footers *{
+			color:white;
+		}
